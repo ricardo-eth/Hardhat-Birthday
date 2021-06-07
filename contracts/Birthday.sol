@@ -2,7 +2,12 @@
 
 pragma solidity ^0.8.0;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "@openzeppelin/contracts/utils/Address.sol";
+
+/**
+ * @author Ricardo-eth
+ * @title Hardhat-Birthday contract
+ */
 
 contract Birthday {
     // Library usage
